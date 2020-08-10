@@ -118,12 +118,6 @@ const PageNavigation = styled.nav`
     }
     &:hover {
       @media (min-width: 1024px) {
-        color: ${hoverColor};
-        background-color: #1f0b42;
-        circle,
-        path {
-          stroke: ${hoverColor};
-        }
       }
     }
   }

@@ -12,6 +12,9 @@ const ContentWrapper = styled.div`
   max-width: 100%;
   padding: 20px;
   margin: 0 auto 40px auto;
+  @media (min-width: 1024px) {
+    margin: 80px auto 40px auto;
+  }
   h2 {
     font-family: "Yeseva One";
     font-size: 3em;
@@ -54,7 +57,6 @@ const IndexPage = () => (
         Vi jobber fortsatt med å få ned detaljene i programmet. Følg med her, så
         kommer det snart.
       </p>
-      <Guest />
     </ContentWrapper>
     <ContentWrapper>
       <h2>Våre gjester</h2>

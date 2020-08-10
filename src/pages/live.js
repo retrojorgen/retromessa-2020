@@ -8,6 +8,9 @@ const ContentWrapper = styled.div`
   max-width: 100%;
   padding: 20px;
   margin: 0 auto 40px auto;
+  @media (min-width: 1024px) {
+    margin: 80px auto 40px auto;
+  }
   h2 {
     font-family: "Yeseva One";
     font-size: 3em;
@@ -17,6 +20,8 @@ const ContentWrapper = styled.div`
   p {
     text-align: center;
     opacity: 0.8;
+    max-width: 400px;
+    margin: 0 auto 10px auto;
   }
 `
 

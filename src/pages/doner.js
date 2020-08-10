@@ -6,8 +6,12 @@ import styled from "styled-components"
 const ContentWrapper = styled.div`
   width: 1200px;
   max-width: 100%;
-  padding: 20px;
+  padding: 0;
   margin: 0 auto 40px auto;
+  @media (min-width: 1024px) {
+    padding: 20px;
+    margin: 80px auto 40px auto;
+  }
   h2 {
     font-family: "Yeseva One";
     font-size: 3em;
@@ -31,7 +35,9 @@ const Iframe = styled.iframe`
 const DonerPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Iframe src="https://donationcenter.live/vipps/index.php?merchant=614628&id=175&fbclid=IwAR1GfrmUakPYy5VyBfDvqWfX8sMiIcgQZstUbqLQPSJbYDa6m4JwK-ADiBQ" />
+    <ContentWrapper>
+      <Iframe src="https://donationcenter.live/vipps/index.php?merchant=614628&id=175&fbclid=IwAR1GfrmUakPYy5VyBfDvqWfX8sMiIcgQZstUbqLQPSJbYDa6m4JwK-ADiBQ" />
+    </ContentWrapper>
   </Layout>
 )
 
