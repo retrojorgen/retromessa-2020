@@ -80,40 +80,40 @@ const SponsorRow = () => (
   <SponsorRowWrapper>
     <p>Støttespillere</p>
     <div>
-      <a href="https://itpraten.no/kodequiz/?utm_source=kode24&utm_medium=banner&utm_campaign=kodequiz&utm_content=konkurranse">
+      <a href="https://www.activisionblizzard.com/">
         <img src={logo1} />
       </a>
-      <a href="https://itpraten.no/kodequiz/?utm_source=kode24&utm_medium=banner&utm_campaign=kodequiz&utm_content=konkurranse">
+      <a href="https://www.bk.no/">
         <img src={logo2} />
       </a>
-      <a href="https://itpraten.no/kodequiz/?utm_source=kode24&utm_medium=banner&utm_campaign=kodequiz&utm_content=konkurranse">
+      <a href="https://www.capcom.com/">
         <img src={logo3} />
       </a>
-      <a href="https://itpraten.no/kodequiz/?utm_source=kode24&utm_medium=banner&utm_campaign=kodequiz&utm_content=konkurranse">
+      <a href="https://www.dotemu.com/">
         <img src={logo4} />
       </a>
-      <a href="https://itpraten.no/kodequiz/?utm_source=kode24&utm_medium=banner&utm_campaign=kodequiz&utm_content=konkurranse">
+      <a href="https://www.elkjop.no/">
         <img src={logo5} />
       </a>
-      <a href="https://itpraten.no/kodequiz/?utm_source=kode24&utm_medium=banner&utm_campaign=kodequiz&utm_content=konkurranse">
+      <a href="https://www.lego.com/nb-no">
         <img src={logo6} />
       </a>
-      <a href="https://itpraten.no/kodequiz/?utm_source=kode24&utm_medium=banner&utm_campaign=kodequiz&utm_content=konkurranse">
+      <a href="https://www.nintendo.com/">
         <img src={logo7} />
       </a>
-      <a href="https://itpraten.no/kodequiz/?utm_source=kode24&utm_medium=banner&utm_campaign=kodequiz&utm_content=konkurranse">
+      <a href="https://www.playstation.com/no-no/">
         <img src={logo8} />
       </a>
-      <a href="https://itpraten.no/kodequiz/?utm_source=kode24&utm_medium=banner&utm_campaign=kodequiz&utm_content=konkurranse">
+      <a href="https://www.playtonicgames.com/">
         <img src={logo9} />
       </a>
-      <a href="https://itpraten.no/kodequiz/?utm_source=kode24&utm_medium=banner&utm_campaign=kodequiz&utm_content=konkurranse">
+      <a href="https://www.sb.no/">
         <img src={logo10} />
       </a>
-      <a href="https://itpraten.no/kodequiz/?utm_source=kode24&utm_medium=banner&utm_campaign=kodequiz&utm_content=konkurranse">
+      <a href="https://www.strandforlag.no/">
         <img src={logo11} />
       </a>
-      <a href="https://itpraten.no/kodequiz/?utm_source=kode24&utm_medium=banner&utm_campaign=kodequiz&utm_content=konkurranse">
+      <a href="https://www.topptrafikkskole.no/">
         <img src={logo12} />
       </a>
     </div>
