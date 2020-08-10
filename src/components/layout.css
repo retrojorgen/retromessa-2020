@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f5f6;
+  font-family: "Josefin Sans";
+  color: #27214d;
+}
+.yellow {
+  background-color: #ffc200;
+}
+
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+p {
+  line-height: 1.2em;
+}
+@media (min-width: 1024px) {
+  body {
+    padding-bottom: 0;
+  }
+}
