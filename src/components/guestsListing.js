@@ -14,6 +14,8 @@ import GuestBattletoads from "../images/guests/battletoadslive.jpg"
 import GuestRetroHour from "../images/guests/retrohour.jpg"
 import GuestDavidBrevik from "../images/guests/davidbrevik.jpg"
 import GuestCompletionist from "../images/guests/completionist.jpg"
+import GuestRomero from "../images/guests/romero.jpg"
+import GuestAshens from "../images/guests/ashens.jpg"
 
 const GuestsList = styled.div`
   display: flex;
@@ -45,7 +47,7 @@ const GuestStyle = styled.div`
   }
 `
 
-const Guest = props => (
+const Guest = (props) => (
   <GuestStyle>
     <img src={props.guestImage} />
     <h3>{props.guestTitle}</h3>
@@ -54,7 +56,7 @@ const Guest = props => (
   </GuestStyle>
 )
 
-const Guests = props => (
+const Guests = (props) => (
   <GuestsList>
     <Guest
       guestImage={GuestMetalJesusRocks}
@@ -70,6 +72,22 @@ const Guests = props => (
         de mest populære er "Top 10 Xbox 360 Games - All Time," "Top 10
         PlayStation 2 / PS2 Games" og "FOUND: Ultra-Rare Nintendo Prototype N64
         Add-On (US Version of 64DD)."
+      </p>
+      <p>Han har også tidligere jobbet for spillselskapet Sierra On-Line.</p>
+    </Guest>
+    <Guest
+      guestImage={GuestRomero}
+      guestTitle="Brenda og John Romero"
+      guestTime="Søndag 30. august"
+    >
+      <p>
+        På søndag 30. august får vi besøk av to vaskeekte legender på streamen
+        vår! Brenda og John Romero stikker nemlig innom. 😻
+      </p>
+      <p>
+        Både Brenda og John har årevis med erfaring fra spillindustrien, han med
+        Doom-, Wolfenstein 3D- og Quake-seriene, hun med Wizardry-serien. Nå
+        lager de spill sammen i Romero Games!
       </p>
       <p>Han har også tidligere jobbet for spillselskapet Sierra On-Line.</p>
     </Guest>
@@ -228,17 +246,40 @@ const Guests = props => (
     <Guest
       guestImage={GuestTripHawkins}
       guestTitle="Trip Hawkins"
-      guestTime="Lørdag 30. august, 12:30"
+      guestTime="Lørdag 29. august, 12:30"
     >
       <p>
-        Publikumsfavoritt Jirard Khalih, bedre kjent som The Completionist,
-        dukker opp på streamen vår søndag, sammen med kompis og YouTuber Jesse
-        Cox.
+        Hawkins er en av de virkelige legendene innen spillindustrien. Ikke bare
+        grunnla han et av de største spillselskapene i historien Electronic
+        Arts, han skapte også sin egen spillkonsoll 3DO, som riktignok floppet
+        på spektakulært vis.
       </p>
       <p>
-        Khalil har gjestet Retrospillmessen flere ganger tidligere og drar
-        alltid fullt hus på vårt panelrom. Vi gleder oss til et gjensyn med den
-        hardtarbeidende YouTuberen.
+        Han dukker også opp i den nye Netflix-serien Highscore. Du finner Trip
+        på hans{" "}
+        <a href="https://www.facebook.com/tripthroughsiliconvalley">
+          facebook-side Trip through Silicon Valley
+        </a>
+        , og hans instagram{" "}
+        <a href="https://www.instagram.com/thetriphawkins">thetriphawkins</a>
+      </p>
+    </Guest>
+    <Guest
+      guestImage={GuestAshens}
+      guestTitle="Ashens"
+      guestTime="Søndag 30. august"
+    >
+      <p>
+        Ashens er en britisk{" "}
+        <a href="https://www.youtube.com/channel/UCxt9Pvye-9x_AIcb1UtmF1Q">
+          YouTuber
+        </a>{" "}
+        med over 1 million subscribers.
+      </p>
+      <p>
+        På kanalen hans finner du alt fra retrogaming til matlaging og rare
+        oppfinnelser. Vi har vært fans i årevis, og gleder oss til å få han på
+        besøk på stream.
       </p>
     </Guest>
   </GuestsList>
