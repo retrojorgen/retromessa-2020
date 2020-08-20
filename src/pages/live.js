@@ -11,10 +11,20 @@ const ContentWrapper = styled.div`
   @media (min-width: 1024px) {
     margin: 80px auto 40px auto;
   }
+  iframe {
+    margin: 0 auto 40px auto;
+    width: 100%;
+    display: block;
+    max-width: 560px;
+  }
   h2 {
     font-family: "Yeseva One";
     font-size: 3em;
     text-shadow: 2px 5px 0 #ffc200;
+    text-align: center;
+  }
+  h3 {
+    font-size: 2em;
     text-align: center;
   }
   p {
