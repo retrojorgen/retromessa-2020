@@ -13,6 +13,14 @@ import logo9 from "../images/sponsor/playtonic.jpg"
 import logo10 from "../images/sponsor/sb.jpg"
 import logo11 from "../images/sponsor/strand-forlag.jpg"
 import logo12 from "../images/sponsor/topp-trafikkskole.jpg"
+import logo13 from "../images/sponsor/innowin.jpg"
+import logo14 from "../images/sponsor/meny-indrehavn.jpg"
+import logo15 from "../images/sponsor/com2gether.jpg"
+import logo16 from "../images/sponsor/cosmos-it.jpg"
+import logo17 from "../images/sponsor/fon-anlegg.jpg"
+import logo18 from "../images/sponsor/hp-omen.jpg"
+import logo19 from "../images/sponsor/hvaltorvet.jpg"
+import logo20 from "../images/sponsor/fjorden-elektro.jpg"
 
 const SponsorRowWrapper = styled.div`
   text-align: center;
@@ -30,8 +38,8 @@ const SponsorRowWrapper = styled.div`
     justify-content: flex-start;
     flex-wrap: wrap;
     @media (min-width: 1024px) {
-      flex-wrap: nowrap;
-      justify-content: space-between;
+      flex-wrap: wrap;
+      justify-content: center;
     }
   }
   p {
@@ -41,6 +49,9 @@ const SponsorRowWrapper = styled.div`
     opacity: 0.8;
     text-align: left;
     padding-left: 10px;
+    @media (min-width: 1024px) {
+      text-align: center;
+    }
   }
   &:hover {
     a {
@@ -53,7 +64,7 @@ const SponsorRowWrapper = styled.div`
     display: inline-block;
     padding: 10px 10px;
     @media (min-width: 1024px) {
-      padding: 0 10px;
+      padding: 10px 10px;
     }
     img {
       height: 24px;
@@ -115,6 +126,30 @@ const SponsorRow = () => (
       </a>
       <a href="https://www.topptrafikkskole.no/">
         <img src={logo12} />
+      </a>
+      <a href="http://www.innowin.no/">
+        <img src={logo13} />
+      </a>
+      <a href="http://www.menyindrehavn.no/">
+        <img src={logo14} />
+      </a>
+      <a href="https://www.c2g.no/">
+        <img src={logo15} />
+      </a>
+      <a href="https://www.cosmosit.no/">
+        <img src={logo16} />
+      </a>
+      <a href="https://fon.no/">
+        <img src={logo17} />
+      </a>
+      <a href="https://store.hp.com/us/en/slp/omen-gaming/laptops">
+        <img src={logo18} />
+      </a>
+      <a href="https://hvaltorvet.no">
+        <img src={logo19} />
+      </a>
+      <a href="https://fjordenelektro.no/">
+        <img src={logo20} />
       </a>
     </div>
   </SponsorRowWrapper>

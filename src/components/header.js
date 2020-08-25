@@ -108,7 +108,7 @@ const PageNavigation = styled.nav`
       }
     }
     .menu-icon {
-      width: 20px;
+      width: auto;
       height: 20px;
       margin-bottom: 16px;
       @media (min-width: 1024px) {
@@ -126,30 +126,30 @@ const PageNavigation = styled.nav`
 const Header = ({ siteTitle }) => (
   <HeaderWrapper>
     <div className="header-shrinker">
-      <AniLink cover to="/" id="logo">
+      <AniLink fade duration={0.25} to="/" id="logo">
         <img src={logo} />
       </AniLink>
       <PageNavigation>
         <li className="only-mobile">
-          <AniLink cover to="/">
+          <AniLink fade duration={0.25} to="/">
             <SvgIcon name="pacman" />
             <span>Hjem</span>
           </AniLink>
         </li>
         <li>
-          <AniLink cover to="/program">
+          <AniLink fade duration={0.25} to="/program">
             <SvgIcon name="schedule" />
             <span>Program</span>
           </AniLink>
         </li>
         <li>
-          <AniLink cover to="/live">
+          <AniLink fade duration={0.25} to="/live">
             <SvgIcon name="live" />
             <span>Direkte</span>
           </AniLink>
         </li>
         <li>
-          <AniLink cover to="/doner">
+          <AniLink fade duration={0.25} to="/doner">
             <SvgIcon name="vipps" />
             <span>Donér</span>
           </AniLink>

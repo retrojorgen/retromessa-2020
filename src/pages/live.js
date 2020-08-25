@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from "styled-components"
+import SponsorRow from "../components/sponsor"
 
 const ContentWrapper = styled.div`
   width: 1200px;
@@ -52,6 +53,7 @@ const DirektePage = () => (
         vår allerede, så får du notification når vi starter. 😎
       </p>
     </ContentWrapper>
+    <SponsorRow />
   </Layout>
 )
 
