@@ -72,7 +72,7 @@ const DonerPage = () => (
         target="new_window"
       >
         <img src={paypalLogo} />
-        <span>Støtt oss via Paypal</span>
+        <span>Support us with Paypal</span>
       </PaypalSponsor>
       <Iframe src="https://donationcenter.live/vipps/index.php?merchant=614628&id=175&fbclid=IwAR1GfrmUakPYy5VyBfDvqWfX8sMiIcgQZstUbqLQPSJbYDa6m4JwK-ADiBQ" />
     </ContentWrapper>

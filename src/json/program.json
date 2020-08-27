@@ -1,0 +1,194 @@
+[
+  {
+    "date": "Tue Aug 25 2020 00:00:00 GMT+0200",
+    "name": "Lørdag 29. august",
+    "events": [
+      {
+        "startTime": "Tue Aug 25 2020 10:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 10:20:00 GMT+0200",
+        "name": "Vi ønsker velkommen",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 10:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 11:30:00 GMT+0200",
+        "name": "Gaming og prat med Christopher Robin fra FlippKlipp",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 11:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 11:30:00 GMT+0200",
+        "name": "Bli med til lageret",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 12:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 12:30:00 GMT+0200",
+        "name": "Spelledåsene dukker opp",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 12:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 13:30:00 GMT+0200",
+        "name": "Spelledåsene prater med Trip Hawkins",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 13:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 14:30:00 GMT+0200",
+        "name": "Spelledåsene prater med Andreas Hedemann og Camilla Kierulf Jørgensen fra Nerdelandslaget i retrostua",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 14:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 15:30:00 GMT+0200",
+        "name": "Ron Gilbert panel fra Retromessa 2018",
+        "location": "Innslag"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 15:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 15:30:00 GMT+0200",
+        "name": "Konkurranse: Hvem kan slå Jan?",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 16:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 17:00:00 GMT+0200",
+        "name": "Mario Kart i virkeligheten",
+        "location": "Innslag"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 17:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 17:30:00 GMT+0200",
+        "name": "Jan viser sjeldne spill i studio",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 17:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 18:30:00 GMT+0200",
+        "name": "Uannonsert intervju 😲",
+        "location": "Studio"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 18:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 19:00:00 GMT+0200",
+        "name": "Konkurranse: Hva vet Spelledåsene om dyre spill?",
+        "location": "Studio"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 19:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 20:00:00 GMT+0200",
+        "name": "Spelledåsene prater med Grant Kirkhope",
+        "location": "Studio"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 20:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 21:00:00 GMT+0200",
+        "name": "Spelledåsene prater med Howard Scott Warshaw",
+        "location": "Studio"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 21:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 22:00:00 GMT+0200",
+        "name": "Spillquiz med Magnus og Jon Cato!",
+        "location": "Studio"
+      }
+    ]
+  },
+  {
+    "date": "Wed Aug 26 2020 00:00:00 GMT+0200",
+    "name": "Søndag 30. august",
+    "events": [
+      {
+        "startTime": "Tue Aug 25 2020 10:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 10:30:00 GMT+0200",
+        "name": "Vi ønsker velkommen fra Retrostua",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 10:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 11:30:00 GMT+0200",
+        "name": "Rare og merkelige Retrospill? Vi prøver dem i Retrostua",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 11:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 12:00:00 GMT+0200",
+        "name": "Vi prater med Ravi, Dan og Joe fra The Retro Hour",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 12:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 13:00:00 GMT+0200",
+        "name": "Spelledåsene prater med Brenda og John Romero",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 13:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 14:00:00 GMT+0200",
+        "name": "Konkurranse: kan du slå Jan?",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 14:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 14:30:00 GMT+0200",
+        "name": "Vi spiller rare spill i studio",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 15:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 15:30:00 GMT+0200",
+        "name": "Vi prater med Børge Lund om Lunsj",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 16:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 16:30:00 GMT+0200",
+        "name": "Vi prater med YouTuberen Ashens",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 16:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 17:00:00 GMT+0200",
+        "name": "Retroquiz med YouTuber DJ Slopes",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 17:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 18:00:00 GMT+0200",
+        "name": "Hvilke tiers har vi nådd?",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 18:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 19:00:00 GMT+0200",
+        "name": "Spelledåsene prater med YouTuber Metal Jesus Rocks",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 19:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 20:00:00 GMT+0200",
+        "name": "Vi prater med David Brevik om Diablo",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 19:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 20:00:00 GMT+0200",
+        "name": "Spelledåsene prater med YouTuberne The Completionist og Jesse Cox",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 20:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 20:30:00 GMT+0200",
+        "name": "Minikonsert med David Wise",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 21:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 21:30:00 GMT+0200",
+        "name": "Vi takker for oss",
+        "location": "Retrostua"
+      }
+    ]
+  }
+]
