@@ -16,10 +16,24 @@ const ContentWrapper = styled.div`
   @media (min-width: 1024px) {
     margin: 80px auto 40px auto;
   }
+  @media (min-width: 1024px) {
+    .side-by-side {
+      display: flex;
+      flex-wrap: wrap;
+      .content {
+        width: 50%;
+        padding: 20px;
+      }
+    }
+  }
   h2 {
     font-family: "Yeseva One";
     font-size: 3em;
     text-shadow: 2px 5px 0 #ffc200;
+    text-align: center;
+  }
+  h3 {
+    font-size: 2em;
     text-align: center;
   }
   p {
@@ -94,25 +108,28 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Program" />
     <ContentWrapper>
-      {program.map((day, key) => (
-        <div key={key}>
-          <h2>{day.name}</h2>
-          <table className="schedule">
-            <thead>
-              <tr>
-                <th>Tid</th>
-                <th>Navn</th>
-              </tr>
-            </thead>
-            {day.events.map((event) => (
-              <tr>
-                <td className="event-time">{event.startTimeFormatted}</td>
-                <td className="event-name">{event.name}</td>
-              </tr>
-            ))}
-          </table>
-        </div>
-      ))}
+      <h2>Programmet</h2>
+      <div className="side-by-side">
+        {program.map((day, key) => (
+          <div key={key} className="content">
+            <h3>{day.name}</h3>
+            <table className="schedule">
+              <thead>
+                <tr>
+                  <th>Tid</th>
+                  <th>Navn</th>
+                </tr>
+              </thead>
+              {day.events.map((event) => (
+                <tr>
+                  <td className="event-time">{event.startTimeFormatted}</td>
+                  <td className="event-name">{event.name}</td>
+                </tr>
+              ))}
+            </table>
+          </div>
+        ))}
+      </div>
     </ContentWrapper>
     <ContentWrapper>
       <h2>Våre gjester</h2>

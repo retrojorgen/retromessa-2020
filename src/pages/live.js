@@ -12,6 +12,17 @@ const ContentWrapper = styled.div`
   @media (min-width: 1024px) {
     margin: 80px auto 40px auto;
   }
+  @media (min-width: 1024px) {
+    &.side-by-side,
+    .side-by-side {
+      display: flex;
+      flex-wrap: wrap;
+      .content {
+        width: 50%;
+        padding: 20px;
+      }
+    }
+  }
   iframe {
     margin: 0 auto 40px auto;
     width: 100%;
@@ -41,6 +52,56 @@ const DirektePage = () => (
     <SEO title="Home" />
     <ContentWrapper>
       <h2>Se direkte</h2>
+      <div className="side-by-side">
+        <div className="content">
+          <h3>Retrostua lørdag</h3>
+          <iframe
+            width="560"
+            height="315"
+            className="youtube-embed"
+            src="https://www.youtube.com/embed/euwzPLq-vdY"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div className="content">
+          <h3>Speedrun lørdag</h3>
+          <iframe
+            width="560"
+            height="315"
+            className="youtube-embed"
+            src="https://www.youtube.com/embed/38qT8jxJChY"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div className="content">
+          <h3>Retrostua søndag</h3>
+          <iframe
+            width="560"
+            height="315"
+            className="youtube-embed"
+            src="https://www.youtube.com/embed/rUTexeuvO-8"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div className="content">
+          <h3>Speedrun søndag</h3>
+          <iframe
+            width="560"
+            height="315"
+            className="youtube-embed"
+            src="https://www.youtube.com/embed/oUsmJHWKcHs"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
       <p>
         Vi sender direkte fra vår{" "}
         <a href="https://www.youtube.com/channel/UC1-G7UjkCiJTws4wv0HKCcA">

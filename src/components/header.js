@@ -130,7 +130,7 @@ const Header = ({ siteTitle }) => (
         <img src={logo} />
       </AniLink>
       <PageNavigation>
-        <li className="only-mobile">
+        <li>
           <AniLink fade duration={0.25} to="/">
             <SvgIcon name="pacman" />
             <span>Home</span>
