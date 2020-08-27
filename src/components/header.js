@@ -133,7 +133,7 @@ const Header = ({ siteTitle }) => (
         <li className="only-mobile">
           <AniLink fade duration={0.25} to="/">
             <SvgIcon name="pacman" />
-            <span>Hjem</span>
+            <span>Home</span>
           </AniLink>
         </li>
         <li>
@@ -145,13 +145,13 @@ const Header = ({ siteTitle }) => (
         <li>
           <AniLink fade duration={0.25} to="/live">
             <SvgIcon name="live" />
-            <span>Direkte</span>
+            <span>Live</span>
           </AniLink>
         </li>
         <li>
           <AniLink fade duration={0.25} to="/doner">
             <SvgIcon name="vipps" />
-            <span>Donér</span>
+            <span>Donate</span>
           </AniLink>
         </li>
       </PageNavigation>
