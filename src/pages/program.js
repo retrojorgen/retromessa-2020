@@ -27,8 +27,8 @@ const ContentWrapper = styled.div`
     opacity: 0.8;
   }
   .schedule {
-    width: 600px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 600px;
     margin: 0 auto;
     border-collapse: collapse;
     th {
@@ -94,11 +94,6 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Program" />
     <ContentWrapper>
-      <h2>Program 29.-30. august 2020.</h2>
-      <p>
-        Vi jobber fortsatt med å få ned detaljene i programmet. Følg med her, så
-        kommer det snart.
-      </p>
       {program.map((day, key) => (
         <div key={key}>
           <h2>{day.name}</h2>
