@@ -106,7 +106,7 @@ program.map((event) => {
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Program" />
+    <SEO title="Program for Retromessa 2020 live" />
     <ContentWrapper>
       <h2>Programmet</h2>
       <div className="side-by-side">

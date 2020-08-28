@@ -50,7 +50,7 @@ const TwoColRightText = styled.div`
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Slik blir streamen" />
     <Hero />
     <ContentWrapper>
       <TwoColRightText>

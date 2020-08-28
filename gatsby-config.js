@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Retromemssa live 2020`,
+    title: `Retromessa live 2020`,
     logoTitle: `Retromessa live`,
     description: `Retromessa live 29. til 30. august 2020`,
     author: `@retrojorgen`,

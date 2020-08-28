@@ -49,9 +49,9 @@ const ContentWrapper = styled.div`
 
 const DirektePage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Se Retromessa 2020 live" />
     <ContentWrapper>
-      <h2>Se direkte</h2>
+      <h2>Program 2020</h2>
       <div className="side-by-side">
         <div className="content">
           <h3>Retrostua lørdag</h3>
