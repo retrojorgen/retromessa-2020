@@ -21,6 +21,7 @@ import logo17 from "../images/sponsor/fon-anlegg.jpg"
 import logo18 from "../images/sponsor/hp-omen.jpg"
 import logo19 from "../images/sponsor/hvaltorvet.jpg"
 import logo20 from "../images/sponsor/fjorden-elektro.jpg"
+import logo21 from "../images/sponsor/allegro.jpg"
 
 const SponsorRowWrapper = styled.div`
   text-align: center;
@@ -150,6 +151,9 @@ const SponsorRow = () => (
       </a>
       <a href="https://fjordenelektro.no/">
         <img src={logo20} />
+      </a>
+      <a href="https://www.allegro.no/">
+        <img src={logo21} />
       </a>
     </div>
   </SponsorRowWrapper>

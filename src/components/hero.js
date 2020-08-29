@@ -96,7 +96,7 @@ const Header = ({ siteTitle }) => (
           Kino i Sandefjord. Det blir kjente gjester, utfordringer og masse
           masse herlig retrogaming.
         </p>
-        <AniLink cover to="/" className="action-button yellow">
+        <AniLink cover to="/doner" className="action-button yellow">
           Se direkte
         </AniLink>
       </TaglineWrapper>
