@@ -149,7 +149,7 @@ const Header = ({ siteTitle }) => (
           </AniLink>
         </li>
         <li>
-          <AniLink fade duration={0.25} to="/doner">
+          <AniLink fade duration={0.25} to="/donate">
             <SvgIcon name="vipps" />
             <span>Donate</span>
           </AniLink>
