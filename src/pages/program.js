@@ -108,11 +108,14 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Program for Retromessa 2020 live" />
     <ContentWrapper>
-      <h2>Programmet</h2>
+      <h2>Neste program</h2>
+      <h3>Live julesending 27.12.2020 (kommer snart)</h3>
+      <h2>Tidligere program</h2>
+      <h3>Retromessa 2020</h3>
       <div className="side-by-side">
         {program.map((day, key) => (
           <div key={key} className="content">
-            <h3>{day.name}</h3>
+            <h4>{day.name}</h4>
             <table className="schedule">
               <thead>
                 <tr>

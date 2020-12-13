@@ -52,9 +52,26 @@ const DirektePage = () => (
     <SEO title="Se Retromessa 2020 live" />
     <ContentWrapper>
       <h2>Program 2020</h2>
+      <h2>Tidligere sendinger</h2>
+      <h3>Retromessa live november 2020</h3>
       <div className="side-by-side">
         <div className="content">
-          <h3>Retrostua lørdag</h3>
+          <h4>Søndagssending</h4>
+          <iframe
+            width="560"
+            height="315"
+            className="youtube-embed"
+            src="https://www.youtube.com/embed/zczXcJxXCRQ"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <h3>Retromessa live august 2020</h3>
+      <div className="side-by-side">
+        <div className="content">
+          <h4>Retrostua lørdag</h4>
           <iframe
             width="560"
             height="315"
@@ -66,7 +83,7 @@ const DirektePage = () => (
           ></iframe>
         </div>
         <div className="content">
-          <h3>Speedrun lørdag</h3>
+          <h4>Speedrun lørdag</h4>
           <iframe
             width="560"
             height="315"
@@ -78,7 +95,7 @@ const DirektePage = () => (
           ></iframe>
         </div>
         <div className="content">
-          <h3>Retrostua søndag</h3>
+          <h4>Retrostua søndag</h4>
           <iframe
             width="560"
             height="315"
@@ -90,7 +107,7 @@ const DirektePage = () => (
           ></iframe>
         </div>
         <div className="content">
-          <h3>Speedrun søndag</h3>
+          <h4>Speedrun søndag</h4>
           <iframe
             width="560"
             height="315"
