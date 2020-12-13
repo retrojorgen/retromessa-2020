@@ -1,8 +1,9 @@
 import React from "react"
 import styled from "styled-components"
-import background from "../images/background.jpg"
+import background from "../images/youtube-julesending-stream.jpg"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import SponsorRow from "./sponsor"
+import logo from "../images/retromessa-logo.svg"
 
 const HeroWrapper = styled.div`
   width: 1200px;
@@ -19,35 +20,38 @@ const HeroWrapper = styled.div`
     height: 600px;
     margin: 80px auto 40px auto;
   }
-  #background {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 280px;
-
-    background: url(${background});
-    background-size: 100%;
-    background-position: top center;
-
+  #logo {
+    width: 180px;
+    display: block;
+    margin-right: 40px;
+    img {
+      width: 100%;
+    }
     @media (min-width: 1024px) {
-      border-radius: 20px;
-      left: 50%;
-      top: 50%;
-      width: 50%;
-      height: 600px;
-      background-size: cover;
-      background-position: right;
-      transform: translateY(-50%) scaleX(-1);
+      display: none;
     }
   }
 `
 
 const TaglineWrapper = styled.div`
-  padding: 273px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
   position: relative;
   @media (min-width: 1024px) {
+    display: flex;
+  }
+  @media (min-width: 1024px) {
     padding: 20px;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 20px;
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
   }
   h1 {
     color: #27214d;
@@ -57,8 +61,7 @@ const TaglineWrapper = styled.div`
     margin-bottom: 20px;
     text-shadow: 2px 5px 0 #ffc200;
     @media (min-width: 1024px) {
-      max-width: 60%;
-      font-size: 6rem;
+      font-size: 4rem;
     }
   }
 
@@ -79,26 +82,46 @@ const TaglineWrapper = styled.div`
     padding: 10px 20px;
     border-radius: 20px;
   }
+
+  iframe {
+    max-width: 100%;
+  }
 `
 
 const Header = ({ siteTitle }) => (
   <>
     <HeroWrapper>
-      <div id="background"></div>
       <TaglineWrapper>
-        <h1>
-          I år sender
-          <br /> vi live 😍
-        </h1>
-        <p>Skuffa over at det ikke blir noen messe i år? Fortvil ikke!</p>
-        <p>
-          Fra lørdag 29. august til 30. august sender vi direkte fra Hjertnes
-          Kino i Sandefjord. Det blir kjente gjester, utfordringer og masse
-          masse herlig retrogaming.
-        </p>
-        <AniLink cover to="/doner" className="action-button yellow">
-          Se direkte
+        <AniLink fade duration={0.25} to="/" id="logo">
+          <img src={logo} />
         </AniLink>
+        <div>
+          <h1>Neste sending: 27.12.2020 🎄</h1>
+          <p>
+            Vi kjører en live julesending 27.12.2020, med fokus på Mario
+            Kart-turnering hvor du kan delta, gjester, Zelda-konkurrenten
+            Immortals Pheonix Rising, og mye annet moro!
+          </p>
+          <AniLink
+            cover
+            to="https://www.youtube.com/channel/UC1-G7UjkCiJTws4wv0HKCcA"
+            className="action-button yellow"
+            target="new_window"
+          >
+            Se live på YouTube
+          </AniLink>
+        </div>
+        <div>
+          <iframe
+            width="560"
+            height="315"
+            className="youtube-embed"
+            src="https://www.youtube.com/embed/XO19J1eXmok"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
       </TaglineWrapper>
     </HeroWrapper>
     <SponsorRow />

@@ -145,7 +145,7 @@ const Header = ({ siteTitle }) => (
         <li>
           <AniLink fade duration={0.25} to="/live">
             <SvgIcon name="live" />
-            <span>Live</span>
+            <span>Sendinger</span>
           </AniLink>
         </li>
         <li>

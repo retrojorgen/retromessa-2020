@@ -92,68 +92,8 @@ const SponsorRow = () => (
   <SponsorRowWrapper>
     <p>Støttespillere</p>
     <div>
-      <a href="https://www.activisionblizzard.com/">
-        <img src={logo1} />
-      </a>
-      <a href="https://www.bk.no/">
-        <img src={logo2} />
-      </a>
       <a href="https://www.capcom.com/">
         <img src={logo3} />
-      </a>
-      <a href="https://www.dotemu.com/">
-        <img src={logo4} />
-      </a>
-      <a href="https://www.elkjop.no/">
-        <img src={logo5} />
-      </a>
-      <a href="https://www.lego.com/nb-no">
-        <img src={logo6} />
-      </a>
-      <a href="https://www.nintendo.com/">
-        <img src={logo7} />
-      </a>
-      <a href="https://www.playstation.com/no-no/">
-        <img src={logo8} />
-      </a>
-      <a href="https://www.playtonicgames.com/">
-        <img src={logo9} />
-      </a>
-      <a href="https://www.sb.no/">
-        <img src={logo10} />
-      </a>
-      <a href="https://www.strandforlag.no/">
-        <img src={logo11} />
-      </a>
-      <a href="https://www.topptrafikkskole.no/">
-        <img src={logo12} />
-      </a>
-      <a href="http://www.innowin.no/">
-        <img src={logo13} />
-      </a>
-      <a href="http://www.menyindrehavn.no/">
-        <img src={logo14} />
-      </a>
-      <a href="https://www.c2g.no/">
-        <img src={logo15} />
-      </a>
-      <a href="https://www.cosmosit.no/">
-        <img src={logo16} />
-      </a>
-      <a href="https://fon.no/">
-        <img src={logo17} />
-      </a>
-      <a href="https://store.hp.com/us/en/slp/omen-gaming/laptops">
-        <img src={logo18} />
-      </a>
-      <a href="https://hvaltorvet.no">
-        <img src={logo19} />
-      </a>
-      <a href="https://fjordenelektro.no/">
-        <img src={logo20} />
-      </a>
-      <a href="https://www.allegro.no/">
-        <img src={logo21} />
       </a>
     </div>
   </SponsorRowWrapper>

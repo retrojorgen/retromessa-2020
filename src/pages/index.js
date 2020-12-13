@@ -22,7 +22,7 @@ const ContentWrapper = styled.div`
     text-align: center;
   }
   p {
-    text-align: center;
+    text-align: left;
     opacity: 0.8;
   }
 `
@@ -58,14 +58,15 @@ const IndexPage = () => (
           <img src={Hosts} />
         </div>
         <div className="info">
-          <h2>Slik blir streamen</h2>
+          <h2>Vi streamer hver måned</h2>
           <p>
-            Årets stream blir proppfull av intervjuer, speedruns, og spillmoro i
-            studio, hele helgen fra lørdag til søndag.
+            Retromessa 2020 ble digital i år, og det gikk skikkelig bra! Så bra
+            at vi lovet månedlige streams. Det har vi jaggu startet med.
+            Tidligere sendinger finner du under sendinger-menyen.
           </p>
           <p>
             Programlederne blir kjente fjes fra Retromessa, som Jan Olav, Ivar
-            og Jørgen, i tillegg til jentene fra podcasten Spelledåsene!
+            og Jørgen, og masse gjester!
           </p>
           <p>
             Gjennom programmet får du mulighet til å delta i både chat og
@@ -76,20 +77,12 @@ const IndexPage = () => (
           <p>
             <b>
               Derfor håper vi så mange som mulig vil hjelpe til med donasjoner
-              via Vipps
+              via Vipps, og kjøper billetter til neste års messe!
             </b>
             .
           </p>
         </div>
       </TwoColRightText>
-    </ContentWrapper>
-    <ContentWrapper>
-      <h2>Vi får besøk!</h2>
-      <p>
-        Det kommer noen fantastiske gjester til oss i år, både i studio og over
-        internett.
-      </p>
-      <Guest />
     </ContentWrapper>
   </Layout>
 )
