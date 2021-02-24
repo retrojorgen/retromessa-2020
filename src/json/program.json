@@ -1,7 +1,7 @@
 [
   {
-    "date": "Fri Feb 26 2021 00:00:00 GMT+0200",
-    "name": "Februarstream 2020 29. februar",
+    "date": "Tue Aug 25 2020 00:00:00 GMT+0200",
+    "name": "Studio lørdag 29. august",
     "events": [
       {
         "startTime": "Tue Aug 25 2020 10:00:00 GMT+0200",
@@ -94,7 +94,227 @@
         "location": "Studio"
       }
     ]
-  }
+  },
+  {
+    "date": "Tue Aug 25 2020 00:00:00 GMT+0200",
+    "name": "Speedrun lørdag 29. august",
+    "events": [
+      {
+        "startTime": "Tue Aug 25 2020 10:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 11:00:00 GMT+0200",
+        "name": "Crusader of Centy med Kim Arne Bratt (Tilmandra)",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 10:55:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 12:00:00 GMT+0200",
+        "name": "Crash Bandicoot med SoshiPlayZ",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 12:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 13:10:00 GMT+0200",
+        "name": "Super Mario Bros. 3 Warpless med Uninerdo",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 13:10:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 13:40:00 GMT+0200",
+        "name": "Goof Troop med DagV & Skalle",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 13:40:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 14:30:00 GMT+0200",
+        "name": "Spyro 2: Ripto's Rage! med TaintedTali",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 14:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 15:35:00 GMT+0200",
+        "name": "Battletoads med MegatronECS, livekommentarer fra David Wise og Kevin Bayliss",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 15:35:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 17:10:00 GMT+0200",
+        "name": "Rayman (Any%) med Araneae",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 17:10:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 18:50:00 GMT+0200",
+        "name": "Sekiro: Shadows Die Twice (All bosses, minibosses) med DeekuNutz",
+        "location": "Innslag"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 18:50:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 19:35:00 GMT+0200",
+        "name": "Super Mario Bros. (Any%) med Pladask (etter løpet blir det 35 minutter med hurtigkurs i SMB-running",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 19:35:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 21:00:00 GMT+0200",
+        "name": "Diablo II: Lord of Destruction (Any% Normal Druid) med Phaqui",
+        "location": "Innslag"
+      }
+    ]
+  },
+  {
+    "date": "Wed Aug 26 2020 00:00:00 GMT+0200",
+    "name": "Studio søndag 30. august",
+    "events": [
+      {
+        "startTime": "Tue Aug 25 2020 10:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 10:30:00 GMT+0200",
+        "name": "Vi ønsker velkommen fra Retrostua",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 10:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 11:30:00 GMT+0200",
+        "name": "Rare og merkelige Retrospill? Vi prøver dem i Retrostua",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 11:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 12:00:00 GMT+0200",
+        "name": "Vi prater med Ravi, Dan og Joe fra The Retro Hour",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 12:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 13:00:00 GMT+0200",
+        "name": "Spelledåsene prater med Brenda og John Romero",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 13:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 14:00:00 GMT+0200",
+        "name": "Konkurranse: kan du slå Jan?",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 14:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 14:30:00 GMT+0200",
+        "name": "Vi spiller rare spill i studio",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 14:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 15:30:00 GMT+0200",
+        "name": "Vi prater med Børge Lund om Lunsj",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 15:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 16:00:00 GMT+0200",
+        "name": "Pause",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 16:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 16:30:00 GMT+0200",
+        "name": "Vi prater med YouTuberen Ashens",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 16:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 17:00:00 GMT+0200",
+        "name": "Retroquiz med YouTuber DJ Slopes",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 17:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 18:00:00 GMT+0200",
+        "name": "Hvilke tiers har vi nådd?",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 18:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 19:00:00 GMT+0200",
+        "name": "Spelledåsene prater med YouTuber Metal Jesus Rocks",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 19:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 20:00:00 GMT+0200",
+        "name": "Vi prater med David Brevik om Diablo",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 20:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 21:00:00 GMT+0200",
+        "name": "Spelledåsene prater med YouTuberne The Completionist og Jesse Cox",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 20:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 21:00:00 GMT+0200",
+        "name": "Minikonsert med David Wise",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 21:00:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 21:30:00 GMT+0200",
+        "name": "Vi takker for oss",
+        "location": "Retrostua"
+      }
+    ]
+  },
+  {
+    "date": "Wed Aug 26 2020 00:00:00 GMT+0200",
+    "name": "Speedrun Søndag 30. august",
+    "events": [
+      {
+        "startTime": "Tue Aug 25 2020 10:15:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 11:20:00 GMT+0200",
+        "name": "Super Mario Bros. 3 (All fortresses) med Uninerdo",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 11:20:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 13:15:00 GMT+0200",
+        "name": "Street Fighter 2 live med DagV",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 13:15:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 14:20:00 GMT+0200",
+        "name": "Super Mario 64 (70 star) med Apeduden",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 14:20:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 16:00:00 GMT+0200",
+        "name": "Super Mario Sunshine (Any%)  med Simon Holt (TheHaywire)",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 16:0:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 16:45:00 GMT+0200",
+        "name": "Dark Souls Remastered (Any%) med Sakelig",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 16:45:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 17:30:00 GMT+0200",
+        "name": "Mega Man II (Any%) med DagV",
+        "location": "Retrostua"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 17:30:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 18:50:00 GMT+0200",
+        "name": "Crash Bandicoot 2: Cortex Strikes Back (Any%) med SoshiPlayZ",
+        "location": "streaming"
+      },
+      {
+        "startTime": "Tue Aug 25 2020 18:50:00 GMT+0200",
+        "endTime": "Tue Aug 25 2020 20:50:00 GMT+0200",
+        "name": "Zelda II: Adventure of Link (100% All keys 1CC) med SheepDog_81",
+        "location": "streaming"
+      }
     ]
   }
 ]
