@@ -96,7 +96,7 @@ const Header = ({ siteTitle }) => (
           <img src={logo} />
         </AniLink>
         <div>
-          <h1>Neste sending: 26.02.2021 🎄</h1>
+          <h1>Neste sending: 26.02.2021</h1>
           <p>
             Vi kjører en livesending 26.02.2021 kl. 20:00.
             Vi byr på hauger av giveaways, Nintendo Online, Super Mario 3D
