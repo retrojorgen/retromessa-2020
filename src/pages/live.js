@@ -51,68 +51,39 @@ const DirektePage = () => (
   <Layout>
     <SEO title="Se Retromessa 2020 live" />
     <ContentWrapper>
-      <h2>Program 2020</h2>
       <h2>Tidligere sendinger</h2>
-      <h3>Retromessa live november 2020</h3>
       <div className="side-by-side">
         <div className="content">
-          <h4>Søndagssending</h4>
+          <h4>Januarsending 2021 </h4>
+          <iframe
+            width="560"
+            height="315"
+            className="youtube-embed"
+            src="https://www.youtube.com/embed/XO19J1eXmok"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div className="content">
+          <h4>Julesending 2020 </h4>
+          <iframe
+            width="560"
+            height="315"
+            className="youtube-embed"
+            src="https://www.youtube.com/embed/XO19J1eXmok"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div className="content">
+          <h4>Retromessa live - PlayStation 2020</h4>
           <iframe
             width="560"
             height="315"
             className="youtube-embed"
             src="https://www.youtube.com/embed/zczXcJxXCRQ"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </div>
-      <h3>Retromessa live august 2020</h3>
-      <div className="side-by-side">
-        <div className="content">
-          <h4>Retrostua lørdag</h4>
-          <iframe
-            width="560"
-            height="315"
-            className="youtube-embed"
-            src="https://www.youtube.com/embed/euwzPLq-vdY"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div className="content">
-          <h4>Speedrun lørdag</h4>
-          <iframe
-            width="560"
-            height="315"
-            className="youtube-embed"
-            src="https://www.youtube.com/embed/38qT8jxJChY"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div className="content">
-          <h4>Retrostua søndag</h4>
-          <iframe
-            width="560"
-            height="315"
-            className="youtube-embed"
-            src="https://www.youtube.com/embed/rUTexeuvO-8"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-        <div className="content">
-          <h4>Speedrun søndag</h4>
-          <iframe
-            width="560"
-            height="315"
-            className="youtube-embed"
-            src="https://www.youtube.com/embed/oUsmJHWKcHs"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen

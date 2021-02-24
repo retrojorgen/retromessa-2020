@@ -136,12 +136,12 @@ const Header = ({ siteTitle }) => (
             <span>Home</span>
           </AniLink>
         </li>
-        <li>
+        /*<li>
           <AniLink fade duration={0.25} to="/program">
             <SvgIcon name="schedule" />
             <span>Program</span>
           </AniLink>
-        </li>
+        </li>*/
         <li>
           <AniLink fade duration={0.25} to="/live">
             <SvgIcon name="live" />

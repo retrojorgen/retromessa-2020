@@ -96,11 +96,11 @@ const Header = ({ siteTitle }) => (
           <img src={logo} />
         </AniLink>
         <div>
-          <h1>Neste sending: 27.12.2020 🎄</h1>
+          <h1>Neste sending: 26.02.2021 🎄</h1>
           <p>
-            Vi kjører en live julesending 27.12.2020, med fokus på Mario
-            Kart-turnering hvor du kan delta, gjester, Zelda-konkurrenten
-            Immortals Pheonix Rising, og mye annet moro!
+            Vi kjører en livesending 26.02.2021 kl. 20:00.
+            Vi byr på hauger av giveaways, Nintendo Online, Super Mario 3D
+            World: Bowsers Fury, og kanskje en liten gjest?
           </p>
           <AniLink
             cover
@@ -116,7 +116,7 @@ const Header = ({ siteTitle }) => (
             width="560"
             height="315"
             className="youtube-embed"
-            src="https://www.youtube.com/embed/XO19J1eXmok"
+            src="https://www.youtube.com/embed/U8eUlMcWp9I"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
@@ -127,5 +127,4 @@ const Header = ({ siteTitle }) => (
     <SponsorRow />
   </>
 )
-
 export default Header
