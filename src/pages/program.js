@@ -106,12 +106,9 @@ program.map((event) => {
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Program for Retromessa 2020 live" />
+    <SEO title="Program for Februarstream 2021" />
     <ContentWrapper>
-      <h2>Neste program</h2>
-      <h3>Live julesending 27.12.2020 (kommer snart)</h3>
-      <h2>Tidligere program</h2>
-      <h3>Retromessa 2020</h3>
+      <h3>Februarstream 2020</h3>
       <div className="side-by-side">
         {program.map((day, key) => (
           <div key={key} className="content">
@@ -133,14 +130,6 @@ const IndexPage = () => (
           </div>
         ))}
       </div>
-    </ContentWrapper>
-    <ContentWrapper>
-      <h2>Våre gjester</h2>
-      <p>
-        Det kommer noen fantastiske gjester til oss i år, både i studio og over
-        internett.
-      </p>
-      <Guest />
     </ContentWrapper>
   </Layout>
 )
