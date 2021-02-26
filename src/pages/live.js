@@ -90,17 +90,6 @@ const DirektePage = () => (
           ></iframe>
         </div>
       </div>
-      <p>
-        Vi sender direkte fra vår{" "}
-        <a href="https://www.youtube.com/channel/UC1-G7UjkCiJTws4wv0HKCcA">
-          YouTube-kanal
-        </a>{" "}
-        når arrangementet starter 29. august. Du kan følge{" "}
-        <a href="https://www.youtube.com/channel/UC1-G7UjkCiJTws4wv0HKCcA">
-          YouTube-kanalen
-        </a>{" "}
-        vår allerede, så får du notification når vi starter. 😎
-      </p>
     </ContentWrapper>
     <SponsorRow />
   </Layout>
