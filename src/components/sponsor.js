@@ -95,6 +95,21 @@ const SponsorRow = () => (
       <a href="https://www.capcom.com/">
         <img src={logo3} />
       </a>
+      <a href="https://www.dotemu.com">
+        <img src={logo4} />
+      </a>
+      <a href="https://www.elkjop.no/catalog/no-gaming/gaming">
+        <img src={logo5} />
+      </a>
+      <a href="https://www.lego.com/en-no">
+        <img src={logo6} />
+      </a>
+      <a href="https://www.playstation.com/no-no/">
+        <img src={logo8} />
+      </a>
+      <a href="https://www.playtonicgames.com">
+        <img src={logo9} />
+      </a>
     </div>
   </SponsorRowWrapper>
 )

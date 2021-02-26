@@ -103,11 +103,6 @@ const Header = ({ siteTitle }) => (
             Se direkte
           </AniLink>
         </li>
-        <li>
-          <AniLink cover to="/gjester">
-            Gjester
-          </AniLink>
-        </li>
       </PageNavigation>
     </div>
   </FooterWrapper>
