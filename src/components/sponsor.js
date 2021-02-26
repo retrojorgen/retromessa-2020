@@ -22,6 +22,8 @@ import logo18 from "../images/sponsor/hp-omen.jpg"
 import logo19 from "../images/sponsor/hvaltorvet.jpg"
 import logo20 from "../images/sponsor/fjorden-elektro.jpg"
 import logo21 from "../images/sponsor/allegro.jpg"
+import logo22 from "../images/sponsor/spilldall.png"
+import logo23 from "../images/sponsor/pan-vision.svg"
 
 const SponsorRowWrapper = styled.div`
   text-align: center;
@@ -109,6 +111,12 @@ const SponsorRow = () => (
       </a>
       <a href="https://www.playtonicgames.com">
         <img src={logo9} />
+      </a>
+      <a href="https://www.facebook.com/SpilldallFredrikstad/">
+        <img src={logo22} />
+      </a>
+      <a href="https://corporate.panvision.com">
+        <img src={logo23} />
       </a>
     </div>
   </SponsorRowWrapper>
