@@ -24,6 +24,7 @@ import logo20 from "../images/sponsor/fjorden-elektro.jpg"
 import logo21 from "../images/sponsor/allegro.jpg"
 import logo22 from "../images/sponsor/spilldall.png"
 import logo23 from "../images/sponsor/pan-vision.svg"
+import logo24 from "../images/sponsor/ubisoft-logo.png"
 
 const SponsorRowWrapper = styled.div`
   text-align: center;
@@ -117,6 +118,9 @@ const SponsorRow = () => (
       </a>
       <a href="https://corporate.panvision.com">
         <img src={logo23} />
+      </a>
+      <a href="https://www.ubisoft.com/no-no/">
+        <img src={logo24} />
       </a>
     </div>
   </SponsorRowWrapper>
