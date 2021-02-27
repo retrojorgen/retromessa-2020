@@ -54,6 +54,18 @@ const DirektePage = () => (
       <h2>Tidligere sendinger</h2>
       <div className="side-by-side">
         <div className="content">
+          <h4>Februarsending 2021 </h4>
+          <iframe
+            width="560"
+            height="315"
+            className="youtube-embed"
+            src="www.youtube.com/watch?v=U8eUlMcWp9I"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div className="content">
           <h4>Januarsending 2021 </h4>
           <iframe
             width="560"
