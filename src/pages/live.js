@@ -59,7 +59,7 @@ const DirektePage = () => (
             width="560"
             height="315"
             className="youtube-embed"
-            src="https://www.youtube.com/watch?v=U8eUlMcWp9I"
+            src="https://www.youtube.com/embed/U8eUlMcWp9I"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
