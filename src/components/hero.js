@@ -115,7 +115,7 @@ const Header = ({ siteTitle }) => (
             width="560"
             height="315"
             className="youtube-embed"
-            src="https://player.twitch.tv/?retromessa"
+            src="https://player.twitch.tv/?retromessa>&parent=www.retromessa.com"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
