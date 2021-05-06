@@ -96,19 +96,18 @@ const Header = ({ siteTitle }) => (
           <img src={logo} />
         </AniLink>
         <div>
-          <h1>Neste sending: 26.02.2021</h1>
+          <h1>Neste sending: 07.05.2021</h1>
           <p>
-            Vi kjører en livesending 26.02.2021 kl. 20:00.
-            Vi byr på hauger av giveaways, Nintendo Online, Super Mario 3D
-            World: Bowsers Fury, og kanskje en liten gjest?
+            Vi kjører en livesending 07.05.2021 kl. 19:30.
+            Vi byr på hauger av giveaways og god retrounderholdning!
           </p>
           <AniLink
             cover
-            to="https://www.youtube.com/channel/UC1-G7UjkCiJTws4wv0HKCcA"
+            to="https://www.twitch.tv/retromessa/"
             className="action-button yellow"
             target="new_window"
           >
-            Se live på YouTube
+            Se live på Twitch
           </AniLink>
         </div>
         <div>
@@ -116,7 +115,7 @@ const Header = ({ siteTitle }) => (
             width="560"
             height="315"
             className="youtube-embed"
-            src="https://www.youtube.com/embed/U8eUlMcWp9I"
+            src="https://player.twitch.tv/?channel=retromessa&enableExtensions=true&muted=false&parent=twitch.tv&player=popout&volume=0.20000000298023224"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
