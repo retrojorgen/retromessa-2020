@@ -68,7 +68,7 @@ const DonerPage = () => (
     <SEO title="Home" />
     <ContentWrapper>
       <PaypalSponsor
-        href="https://streamelements.com/retromessa/tip"
+        href="https://streamelements.com/retromessa-3325/tip"
         target="new_window"
       >
         <img src={paypalLogo} />
