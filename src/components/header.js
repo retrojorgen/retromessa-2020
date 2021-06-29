@@ -148,16 +148,6 @@ const Header = ({ siteTitle }) => (
             <span>Donate</span>
           </AniLink>
         </li>
-        <li>
-          <AniLink
-            fade
-            duration={0.25}
-            to="https://retrospillmessen.hoopla.no/sales/rsm2020"
-          >
-            <SvgIcon name="next" />
-            <span>Billett</span>
-          </AniLink>
-        </li>
       </PageNavigation>
     </div>
   </HeaderWrapper>
