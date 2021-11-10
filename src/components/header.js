@@ -1,13 +1,10 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import styled from "styled-components"
-import logo from "../images/retromessa-logo.svg"
+import logo from "../images/retromessa-logo-white.svg"
 import SvgIcon from "./svgIcons"
 
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-
-const hoverColor = "#c6b0ef"
 
 const HeaderWrapper = styled.header`
   width: 100%;
@@ -22,14 +19,14 @@ const HeaderWrapper = styled.header`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: #7013c7;
   backdrop-filter: blur(10px);
 
   @media (min-width: 1024px) {
     top: 0;
     border-top: 0;
     border-bottom: 0;
-    background-color: transparent;
+    background-color: #7013c7;
     bottom: auto;
     height: 70px;
   }
@@ -50,7 +47,8 @@ const HeaderWrapper = styled.header`
     }
     @media (min-width: 1024px) {
       color: white;
-      display: block;
+      display: flex;
+      align-items: center;
       background-color: transparent;
       padding: 0 0 0 10px;
       font-size: 2.2em;
@@ -85,7 +83,7 @@ const PageNavigation = styled.nav`
     padding: 1em 0.5em 3em 0.5em;
     font-size: 0.6em;
     text-transform: uppercase;
-    color: black;
+    color: white;
     text-decoration: none;
     letter-spacing: 2px;
     position: relative;
@@ -127,7 +125,7 @@ const Header = ({ siteTitle }) => (
   <HeaderWrapper>
     <div className="header-shrinker">
       <AniLink fade duration={0.25} to="/" id="logo">
-        <img src={logo} />
+        <img src={logo} alt="logo" />
       </AniLink>
       <PageNavigation>
         <li>
@@ -137,7 +135,7 @@ const Header = ({ siteTitle }) => (
           </AniLink>
         </li>
         <li>
-          <AniLink fade duration={0.25} to="/live">
+          <AniLink fade duration={0.25} to="https://www.twitch.com/retromessa">
             <SvgIcon name="live" />
             <span>Sendinger</span>
           </AniLink>

@@ -1,10 +1,8 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import styled from "styled-components"
 import logo from "../images/retromessa-logo.svg"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-import SvgIcon from "./svgIcons"
 
 const FooterWrapper = styled.footer`
   width: 100%;
@@ -12,6 +10,8 @@ const FooterWrapper = styled.footer`
   position: relative;
   z-index: 10;
   padding: 1rem;
+
+  color: black;
 
   #logo {
     width: 180px;
@@ -68,7 +68,8 @@ const PageNavigation = styled.nav`
     height: 20px;
     margin-right: 10px;
   }
-  a {
+  a,
+  p {
     display: flex;
     align-items: center;
     padding: 1em;
@@ -90,18 +91,11 @@ const Header = ({ siteTitle }) => (
   <FooterWrapper>
     <div className="header-shrinker">
       <span id="logo">
-        <img src={logo} />
+        <img src={logo} alt="logo" />
       </span>
       <PageNavigation>
         <li>
-          <AniLink cover to="/program">
-            Program
-          </AniLink>
-        </li>
-        <li>
-          <AniLink cover to="/live">
-            Se direkte
-          </AniLink>
+          <p>Retromessa arrangeres av Spillmuseet</p>
         </li>
       </PageNavigation>
     </div>

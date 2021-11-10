@@ -71,7 +71,7 @@ const DonerPage = () => (
         href="https://streamelements.com/retromessa-3325/tip"
         target="new_window"
       >
-        <img src={paypalLogo} />
+        <img src={paypalLogo} alt="paypal" />
         <span>Support us with Paypal</span>
       </PaypalSponsor>
       <Iframe src="https://donationcenter.live/vipps/index.php?merchant=614628&id=175&fbclid=IwAR1GfrmUakPYy5VyBfDvqWfX8sMiIcgQZstUbqLQPSJbYDa6m4JwK-ADiBQ" />

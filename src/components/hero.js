@@ -1,13 +1,10 @@
 import React from "react"
 import styled from "styled-components"
-import background from "../images/youtube-julesending-stream.jpg"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 import SponsorRow from "./sponsor"
-import logo from "../images/retromessa-logo.svg"
+import background from "../images/background.jpg"
 
 const HeroWrapper = styled.div`
-  width: 1200px;
-  max-width: 100%;
   margin: 0 auto 40px auto;
   display: flex;
   justify-content: center;
@@ -15,10 +12,11 @@ const HeroWrapper = styled.div`
   position: relative;
   overflow: hidden;
   height: auto;
-
+  align-items: center;
+  background-image: url(${background});
   @media (min-width: 1024px) {
     height: 600px;
-    margin: 80px auto 40px auto;
+    margin: 60px auto 40px auto;
   }
   #logo {
     width: 180px;
@@ -34,6 +32,8 @@ const HeroWrapper = styled.div`
 `
 
 const TaglineWrapper = styled.div`
+  width: 1200px;
+  max-width: 100%;
   padding: 20px 20px 20px 20px;
   position: relative;
   @media (min-width: 1024px) {
@@ -45,7 +45,7 @@ const TaglineWrapper = styled.div`
   div {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     margin-bottom: 20px;
     img {
@@ -54,30 +54,32 @@ const TaglineWrapper = styled.div`
     }
   }
   h1 {
-    color: #27214d;
+    color: white;
     max-width: 100%;
     font-size: 3rem;
     font-family: "Yeseva One";
     margin-bottom: 20px;
-    text-shadow: 2px 5px 0 #ffc200;
+    text-shadow: 2px 5px 0 #7013c7;
+    text-align: center;
     @media (min-width: 1024px) {
       font-size: 4rem;
     }
   }
 
   p {
-    color: #27214d;
+    color: white;
     opacity: 0.8;
     max-width: 100%;
     line-height: 1.4em;
     padding: 5px;
     margin: 0;
+    text-align: center;
     @media (min-width: 1024px) {
       max-width: 50%;
     }
   }
   .action-button {
-    margin-top: 10px;
+    margin-top: 60px;
     display: inline-block;
     padding: 10px 20px;
     border-radius: 20px;
@@ -92,35 +94,23 @@ const Header = ({ siteTitle }) => (
   <>
     <HeroWrapper>
       <TaglineWrapper>
-        <AniLink fade duration={0.25} to="/" id="logo">
-          <img src={logo} />
-        </AniLink>
         <div>
-          <h1>Neste sending: 07.05.2021</h1>
+          <h1>Velkommen til mini-messa 27.11.2021 🥳</h1>
           <p>
-            Vi kjører en livesending 07.05.2021 kl. 19:30.
-            Vi byr på hauger av giveaways og god retrounderholdning!
+            Det blir en liten messe i Sandefjord i år på Fjordfolk i Sandefjord.
+            Det blir stands, retrogaming, konkurranser og en kveldskonsert. Følg
+            med på vår Facebook-side for mer informasjon om billettsalget.
           </p>
           <AniLink
             cover
-            to="https://www.twitch.tv/retromessa/"
+            to="#"
             className="action-button yellow"
             target="new_window"
           >
-            Se live på Twitch
+            Billetter kommer snart
           </AniLink>
         </div>
-        <div>
-          <iframe
-            width="560"
-            height="315"
-            className="youtube-embed"
-            src="https://player.twitch.tv/?channel=retromessa&parent=www.retromessa.com"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
+        <div></div>
       </TaglineWrapper>
     </HeroWrapper>
     <SponsorRow />

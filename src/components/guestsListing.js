@@ -1,7 +1,6 @@
 import React from "react"
 import styled from "styled-components"
 
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 import GuestGrantKirkhope from "../images/guests/grant-kirkhope.jpg"
 import GuestMetalJesusRocks from "../images/guests/metal-jesus-rocks.jpg"
 import GuestHowardScottWarshaw from "../images/guests/howard-scott-warshaw.jpg"
@@ -49,10 +48,15 @@ const GuestStyle = styled.div`
 
 const Guest = (props) => (
   <GuestStyle>
-    <img src={props.guestImage} />
+    <img src={props.guestImage} alt="guests" />
     <h3>{props.guestTitle}</h3>
     {props.children}
-    <time>⌚ {props.guestTime}</time>
+    <time>
+      <span role="img" aria-label="emoji">
+        ⌚
+      </span>{" "}
+      {props.guestTime}
+    </time>
   </GuestStyle>
 )
 
@@ -82,7 +86,10 @@ const Guests = (props) => (
     >
       <p>
         På søndag 30. august får vi besøk av to vaskeekte legender på streamen
-        vår! Brenda og John Romero stikker nemlig innom. 😻
+        vår! Brenda og John Romero stikker nemlig innom.{" "}
+        <span role="img" aria-label="emoji">
+          😻
+        </span>
       </p>
       <p>
         Både Brenda og John har årevis med erfaring fra spillindustrien, han med

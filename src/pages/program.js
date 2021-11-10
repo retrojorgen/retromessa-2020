@@ -67,27 +67,6 @@ const ContentWrapper = styled.div`
   }
 `
 
-const TwoColRightText = styled.div`
-  display: block;
-  @media (min-width: 1024px) {
-    display: flex;
-    width: 100%;
-  }
-  .image {
-    flex: 1 1 50%;
-    img {
-      max-width: 100%;
-    }
-  }
-  .info {
-    flex: 1 1 50%;
-    p {
-      max-width: 400px;
-      margin: 0 auto 10px auto;
-    }
-  }
-`
-
 function getTime(dateObject) {
   let hours = dateObject.getHours().toString().padStart(2, "0")
   let minutes = dateObject.getMinutes().toString().padStart(2, "0")
@@ -101,7 +80,9 @@ program.map((event) => {
     date.endTime = new Date(date.endTime)
     date.startTimeFormatted = getTime(date.startTime)
     date.status = "upcoming"
+    return date
   })
+  return event
 })
 
 const IndexPage = () => (
