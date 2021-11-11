@@ -64,9 +64,10 @@ const IndexPage = () => (
             ei lita mini-messe likevel.
           </p>
           <p>
-            Så møt oss på Fjordfolk i Sandefjord for en legendarisk dag med
-            stands, retrogaming og konkurranser. Og en kveldskonsert med David
-            Wise, Kevin Bayliss og venner!
+            Messa arrangeres på utestedet Fjordfolk i Sandefjord sentrum. Så bli
+            med oss på en legendarisk dag med stands, retrogaming og
+            konkurranser. Og en kveldskonsert med David Wise, Kevin Bayliss og
+            venner!
           </p>
         </div>
       </TwoColRightText>

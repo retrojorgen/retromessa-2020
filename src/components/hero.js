@@ -97,9 +97,10 @@ const Header = ({ siteTitle }) => (
         <div>
           <h1>Velkommen til mini-messa 27.11.2021 🥳</h1>
           <p>
-            Det blir en liten messe i Sandefjord i år på Fjordfolk i Sandefjord.
-            Det blir stands, retrogaming, konkurranser og en kveldskonsert. Følg
-            med på vår Facebook-side for mer informasjon om billettsalget.
+            I samarbeid med Elkjøp og utestedet Fjordfolk blir det en liten
+            messe i Sandefjord i år! Det blir stands, retrogaming, konkurranser
+            og en kveldskonsert. Følg med på vår Facebook-side for mer
+            informasjon om billettsalget.
           </p>
           <AniLink
             cover

@@ -7,6 +7,8 @@ import logo7 from "../images/sponsor/nintendo.jpg"
 import logo8 from "../images/sponsor/playstation.jpg"
 import surefire from "../images/sponsor/surefire.jpg"
 import xbox from "../images/sponsor/xbox.png"
+import fjordfolk from "../images/sponsor/fjordfolk.png"
+import funcom from "../images/sponsor/funcom.png"
 
 const SponsorRowWrapper = styled.div`
   text-align: center;
@@ -52,6 +54,9 @@ const SponsorRow = () => (
   <SponsorRowWrapper>
     <p>Støttespillere</p>
     <div>
+      <a href="https://www.fjordfolkbrygg.no/">
+        <img src={fjordfolk} alt="logo" />
+      </a>
       <a href="https://www.elkjop.no/catalog/no-gaming/gaming">
         <img src={logo5} alt="logo" />
       </a>
@@ -61,14 +66,14 @@ const SponsorRow = () => (
       <a href="https://www.playstation.com/no-no/">
         <img src={logo8} alt="logo" />
       </a>
-      <a href="https://www.nintendo.no">
-        <img src={logo7} alt="logo" />
-      </a>
       <a href="https://www.surefire-gaming.com/">
         <img src={surefire} alt="logo" />
       </a>
       <a href="https://www.xbox.com/nb-NO">
         <img src={xbox} alt="logo" />
+      </a>
+      <a href="https://www.funcom.com/">
+        <img src={funcom} alt="logo" />
       </a>
     </div>
   </SponsorRowWrapper>
