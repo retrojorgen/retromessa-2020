@@ -104,11 +104,11 @@ const Header = ({ siteTitle }) => (
           </p>
           <AniLink
             cover
-            to="#"
+            to="https://retrospillmessen.hoopla.no/sales/989341619"
             className="action-button yellow"
             target="new_window"
           >
-            Billetter kommer snart
+            Kjøp billetter
           </AniLink>
         </div>
         <div></div>
