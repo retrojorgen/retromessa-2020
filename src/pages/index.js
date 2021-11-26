@@ -54,21 +54,24 @@ const IndexPage = () => (
     <Hero />
     <ContentWrapper>
       <TwoColRightText>
-        <div className="image">
-          <img src={Hosts} alt="hosts" />
-        </div>
         <div className="info">
-          <h2>Det blir messe i år!</h2>
-          <p>
-            Den store Retromessa har vi utsatt til 2022, men vi klinker til med
-            ei lita mini-messe likevel.
-          </p>
+          <h2>PROGRAM</h2>
+          <p>10:00 - Dørene for mini-messa åpner</p>
+          <p>12:00 - Barnequiz med premier</p>
+          <p>17:00 - Dørene for mini-messa stenger</p>
+          <p>-----------------</p>
+          <p>20:00 - Dørene for konserten åpner</p>
+          <p>20:00 - Quiz med premier</p>
+          <p>21:00 - konsert med David Wise starter</p>
           <p>
             Messa arrangeres på utestedet Fjordfolk i Sandefjord sentrum. Så bli
             med oss på en legendarisk dag med stands, retrogaming og
             konkurranser. Og en kveldskonsert med David Wise, Kevin Bayliss og
             venner!
           </p>
+        </div>
+        <div className="image">
+          <img src={Hosts} alt="hosts" />
         </div>
       </TwoColRightText>
     </ContentWrapper>
